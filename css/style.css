@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Allura|Dancing+Script|Great+Vibes|Homemade+Apple|Playball|Special+Elite|Spectral+SC|Vollkorn|Vollkorn+SC|Single+Day|Nabla|Bungee+Spice|Wavefont|Monofett|Rubik+Scribble|Castoro+Titling|Rubik+Vinyl');
+@media screen and (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+  }
 
+  .fancy-neck {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+}
 /* Fonts to use*/
 /*
 Monofett|

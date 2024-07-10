@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Dancing+Script|Great+Vibes|Homemade+Apple|Playball|Special+Elite|Spectral+SC|Vollkorn|Vollkorn+SC|Single+Day|Nabla|Bungee+Spice|Wavefont|Monofett|Rubik+Scribble|Castoro+Titling|Rubik+Vinyl');
+
+/* Fonts to use*/
+/*
+Monofett|
+Rubik+Scribble|
+Castoro+Titling|
+Rubik+Vinyl
+font-family: 'Dancing Script', cursive;
+font-family: 'Spectral SC', serif;
+font-family: 'Vollkorn SC', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Vollkorn', serif;*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto; /* center*/
+  top: 0;
+}
+
+/*.container {
+  overflow: hidden;
+} */
+
+.fancy {
+  font-family: 'Nabla', serif;
+}
+
+.fancy-links {
+  font-family: 'Bungee Spice', serif;
+}
+
+.fancy-info {
+  font-family: 'Single Day', serif;
+}
+
+.fancy-neck {
+  font-family: 'Bungee Spice', serif;
+  font-size: 30px;
+}
+
+.fancy-header {
+  font-family: 'Nabla', cursive;
+  line-height: .9em;
+  font-size: 500%;
+  margin-bottom: 0.3em;
+  margin-top: 1em;
+
+}
+
+
+.fancy p, .fancy ul li {
+  font-family: 'Playball', serif;
+  margin: .6em;
+}
+
+.fancy ul {
+  padding-left: 20px;
+}
+
+.title {
+  height: auto;
+  position: relative;
+  margin-bottom: .5em;
+  padding-bottom: .2em;
+}
+
+
+h1.fancy {
+  font-size: 450%;
+}
+
+
+h6, nav {
+  font-family: 'Vollkorn SC', serif;
+}
+
+.container {
+  display: flex;
+}
+
+.col-2 {
+  flex: 1;
+  float: left;
+  width: 48%;
+  margin: 1%;
+}
+
+.right-side {
+  border-left: 1.5px solid rgba(127, 9, 27, 1);
+  padding-left: 20px;
+  height: auto;
+}
+
+#welcome, h1, nav {
+  text-align: center;
+}
+
+a:link, a:visited {
+  color: rgba(127, 9, 27, 1);
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: rgba(38, 127, 79, 1);
+  text-decoration: none;
+}
+
+.endgif {
+  clear: both;
+  align-items: center;
+  align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+img, video, audio {
+  max-width: 100%;
+}
+
+/* INFO Page Styles */
+
+.boxes-wrap {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   height: auto;
+   -webkit-justify-content: space-around;
+   justify-content: space-around;
+   width: 100%;
+}
+
+.info-link {
+    /*border: 3px solid #33BC87;*/
+    height: auto;
+    overflow: auto;
+    margin: 1%;
+    padding: 1%;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: #d71818;
+}
+
+
+.info {
+    /*border: 3px solid #33BC87;*/
+    height: auto;
+    overflow: auto;
+    margin: 1%;
+    padding: 1%;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: #2361ff;
+}
+
+.info:hover {
+  transform: scale(1.1);
+  webkit-box-shadow:0 1px 12px rgba(127, 9, 27, 0.4), 0 0 60px rgba(127, 9, 27, 0.2);
+     -moz-box-shadow:0 1px 12px rgba(127, 9, 27, 0.4), 0 0 60px rgba(127, 9, 27, 0.2);
+          box-shadow:0 1px 12px rgba(127, 9, 27, 0.4), 0 0 60px rgba(127, 9, 27, 0.2);
+}
+
+/* light green shadow rgba(51, 186, 134, 0.4)*/
+
+.three {
+  width: 31%;
+  padding: .5% 2%;
+}
+
+.two {
+  width: 47.5%;
+  padding: .5% 2%;
+}
+
+.one {
+  width: 98%;
+  padding: .5% 2%;
+}
+
+/* Intro page */
+
+.welcome-container {
+  margin: 0 auto;
+  width: 75%;
+  height: 800px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+.welcome-container div{
+  width: 90%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+}
+
+.welcome-container nav {
+  width: 90%;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+  font-size: 35px;
+}
